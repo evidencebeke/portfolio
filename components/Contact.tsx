@@ -51,8 +51,8 @@ const Contact = (props: Props) => {
       <h3 className="absolute top-10 tracking-[20px] uppercase text-gray-500">
         Contact
       </h3>
-      <div className="flex flex-col space-y-10">
-        <h4 className="text-xl font-semibold text-slate-300 text-center ">
+      <div className="flex  flex-col space-y-10">
+        <h4 className="text-l font-bold text-slate-300 text-center ">
           Lets talk about your project, shall we?
         </h4>
         <div className="text-slate-300">
@@ -69,7 +69,7 @@ const Contact = (props: Props) => {
           onSubmit={sendEmail}
           className="flex flex-col space-y-2 w-fit mx-auto"
         >
-          <div className="flex space-x-2 ">
+          <div className="flex sm:space-x-2 space-y-2 sm:space-y-0 flex-col sm:flex-row ">
             <input
               required
               value={name}
