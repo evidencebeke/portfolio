@@ -47,7 +47,7 @@ const Contact = (props: Props) => {
       );
   };
   return (
-    <div className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl mx-auto items-center justify-evenly px-10">
+    <div className="min-h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl mx-auto items-center justify-evenly px-10">
       <h3 className="absolute top-10 tracking-[20px] uppercase text-gray-500">
         Contact
       </h3>
